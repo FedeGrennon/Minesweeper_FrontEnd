@@ -1,0 +1,109 @@
+.tablePlayers
+{
+    font-family: 'LuckiestGuy';
+    letter-spacing: 1.5px;
+    font-size: 1.4rem;
+    border-spacing: 4px;
+    min-width: 600px;
+}
+
+.tablePlayers tbody tr
+{
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.tablePlayers tbody tr:hover
+{
+    transform: scale(1.03);
+}
+
+.tablePlayers tbody td:nth-child(odd)
+{
+    background-color: #b79969;
+}
+
+.tablePlayers tbody td:nth-child(even)
+{
+    background-color: #a58a5f;
+}
+
+.tablePlayers td, .tablePlayers th
+{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tablePlayers th
+{
+    background-color: #9a7f55;
+    text-align: center;
+}
+
+.tablePlayers thead tr:first-child
+{
+  text-align: left;
+}
+
+.tablePlayers .kick
+{
+    cursor: pointer;
+    transition: .2s ease-in;
+    width: 50px;
+}
+
+.tablePlayers .kick:hover
+{
+    background-color: #c04949;
+}
+
+.tablePlayers .kick i
+{
+    transition: .2s ease-in;
+}
+
+.tablePlayers .kick:hover i
+{
+    transform: scale(1.1);
+}
+
+.tablePlayers button
+{
+    float: right;
+    margin: 0 0 0 1rem;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.tablePlayers .playing td
+{
+    background-color: #79c049 !important;
+}
+
+.tablePlayers .timeEnd td
+{
+    background-color: #c04949 !important;
+}
+
+.configurations
+{
+    text-align: left;
+}
+
+.lobbyId
+{
+    cursor: pointer;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'LuckiestGuy';
+    background-color: transparent;
+    color: #000;
+    width: 11rem;
+}
+
+.lobby-chat
+{
+    margin-top: 10px;
+    width: 600px;
+    height: 250px;
+}

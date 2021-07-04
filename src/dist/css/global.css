@@ -1,0 +1,136 @@
+@font-face
+{
+    font-family: 'LuckiestGuy';
+    src: url('../fonts/LuckiestGuy-Regular.ttf');
+    font-weight: 400;
+}
+
+body
+{
+    margin: 0;
+	background-color: #363636;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.display-flex
+{
+    display: flex;
+}
+
+.normalInput
+{
+    margin: 5px;
+    width: 20rem;
+    padding: 10px;
+    border: none;
+    transition: .1s ease-in;
+    font-size: 1.5rem;
+    font-family: 'LuckiestGuy';
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1.5px;
+}
+
+.normalInput:focus
+{
+    transform: scale(1.1);
+}
+
+.normalSelect
+{
+    margin: 5px;
+    width: 20rem;
+    padding: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'LuckiestGuy';
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+    -moz-appearance: none;
+	-webkit-appearance: none;
+    appearance: none;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.normalSelect::-ms-expand 
+{
+    display: none;
+}
+
+.normalSelect option 
+{
+    font-size: 1rem;
+    font-family: 'LuckiestGuy';
+    background-color: #363636;
+}
+
+.normalButton {
+    display: block;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-family: 'LuckiestGuy';
+    background-color: #FFB85E;
+    padding: 10px 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: #25252585 1px 1px;
+    transition: .1s ease-in;
+    margin: 1rem;
+}
+
+.normalButton:hover {
+    background-color: #D69C4F;
+    transform: scale(1.05);
+    color: #000;
+    text-decoration: none;
+}
+
+h1
+{
+    font-size: 8rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: #252525 4px 6px;
+    margin: 0;
+    font-family: 'LuckiestGuy';
+}
+
+h2
+{
+    font-size: 3rem;
+    color: rgb(185, 167, 108);
+    text-shadow: #252525 1px 2px;
+    margin: 0;
+    margin-bottom: 2rem;
+    font-family: 'LuckiestGuy';
+}
+
+label
+{
+    color: rgb(223, 233, 170);
+    font-family: 'LuckiestGuy';
+}
+
+label.error
+{
+    color: rgb(236, 135, 135);
+    font-family: 'LuckiestGuy';
+    font-size: 1.5rem;
+}
+
+.bluring
+{
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+}

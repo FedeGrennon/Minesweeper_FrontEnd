@@ -1,0 +1,11 @@
+{
+  "short_name": "Buscaminas",
+  "name": "Buscaminas",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "size": "16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
